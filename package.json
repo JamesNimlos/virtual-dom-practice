@@ -1,0 +1,18 @@
+{
+  "name": "virtual-dom",
+  "version": "0.0.1",
+  "description": "A javascript web-app example using virtual-DOM and template strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "es2015",
+    "virtual-dom",
+    "template",
+    "literals"
+  ],
+  "author": "James Nimlos",
+  "license": "MIT"
+}
