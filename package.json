@@ -14,5 +14,8 @@
     "literals"
   ],
   "author": "James Nimlos",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^1.13.1"
+  }
 }
