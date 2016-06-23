@@ -1,9 +1,11 @@
 {
-  "name": "virtual-dom",
+  "name": "virtual-dom-example",
   "version": "0.0.1",
+  "repository": "https://bitbucket.org/jamesnimlos/virtual-dom",
   "description": "A javascript web-app example using virtual-DOM and template strings",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,6 +18,15 @@
   "author": "James Nimlos",
   "license": "MIT",
   "dependencies": {
-    "webpack": "^1.13.1"
+    "html-to-vdom": "^0.7.0",
+    "virtual-dom": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
