@@ -2,22 +2,22 @@
 const path = require('path');
 
 const config = {
-	entry: './src/index.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/app/',
-    filename: "bundle.js"
+    filename: 'bundle.js'
   },
 
-	module: {
-	  loaders: [
-	    { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
-	    { test: /\.json$/, loader: "json-loader" }
+  module: {
+    loaders: [
+	    { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
+	    { test: /\.json$/, loader: 'json-loader' }
 	  ]
 	},
 
-	devSever: {
-		contentBase: path.resolve(__dirname, './dist')
+  devSever: {
+    contentBase: path.resolve(__dirname, './dist')
 	}
 };
 
