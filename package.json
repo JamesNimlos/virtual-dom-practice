@@ -5,9 +5,9 @@
   "description": "A javascript web-app example using virtual-DOM and template strings",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "dev": "webpack-dev-server",
-    "lint": "eslint --fix ./src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --fix ./src"
   },
   "keywords": [
     "javascript",
